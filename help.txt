@@ -37,36 +37,12 @@ About to write to C:\Users\SL\Documents\vsCode\01-express\package.json:
 Is this ok? (yes)
 
 C:\Users\SL\Documents\vsCode\01-express>npm install express --s save
-+ save@2.3.1
-+ express@4.15.4
-added 55 packages in 8.771s
-
-C:\Users\SL\Documents\vsCode\01-express>code .
-
 
 
 C:\Users\SL\Documents\vsCode\01-express>npm install eslint --save-dev
-npm WARN 01-express@1.0.0 No description
-npm WARN 01-express@1.0.0 No repository field.
-
-+ eslint@4.5.0
-added 136 packages in 11.435s
 
 
 C:\Users\SL\Documents\vsCode\01-express>node_modules\.bin\eslint --init
-? How would you like to configure ESLint? Answer questions about your st
-yle
-? Are you using ECMAScript 6 features? Yes
-? Are you using ES6 modules? No
-? Where will your code run? Browser, Node
-? Do you use CommonJS? Yes
-? Do you use JSX? No
-? What style of indentation do you use? Tabs
-? What quotes do you use for strings? Double
-? What line endings do you use? Windows
-? Do you require semicolons? Yes
-? What format do you want your config file to be in? JSON
-Successfully created .eslintrc.json file in C:\Users\SL\Documents\vsCode\01-express
 
 
 C:\Users\SL\Documents\vsCode\01-express>node server
@@ -77,13 +53,7 @@ server started on port 3000
 
 
 C:\Users\SL\Documents\vsCode\01-express>npm install nodemon --save-dev
-npm WARN 01-express@1.0.0 No description
-npm WARN 01-express@1.0.0 No repository field.
-npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.2 (node_modules\fsevents):
-npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
 
-+ nodemon@1.11.0
-added 115 packages and updated 1 package in 15.884s
 
 C:\Users\SL\Documents\vsCode\01-express>node_modules\.bin\nodemon server
 [nodemon] 1.11.0

@@ -36,7 +36,7 @@ const server = new http.Server(app);
 const io = socketIo(server);
 
 io.on("connection", (socket) => {
-	console.log("connection CLient");
+	console.log("CLient connected!");
 	socket.on("chat:add", data =>{
 		console.log(data);
 		
